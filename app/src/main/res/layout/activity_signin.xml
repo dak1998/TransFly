@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navback"
+    android:nestedScrollingEnabled="false"
+    android:scrollbarAlwaysDrawHorizontalTrack="false"
+
+    android:scrollbarAlwaysDrawVerticalTrack="false"
+    tools:context="com.example.myapplication.SigninActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+
+        android:layout_centerVertical="true"
+        android:background="@color/navback"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/djcsiLogo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_vertical"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter"
+            android:scaleX="1.25"
+            android:scaleY="1.25"
+            android:src="@drawable/splashlogo2"
+            app:srcCompat="@drawable/splashlogo2" />
+
+        <TextView
+            android:id="@+id/loginTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_row="1"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="10dp"
+            android:text="Welcome, Sign in."
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="24sp"
+            android:typeface="sans"
+            android:alpha="0"/>
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/facebookSignin"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="@android:dimen/notification_large_icon_height"
+            android:layout_marginRight="@android:dimen/notification_large_icon_width"
+            android:layout_row="3"
+            android:background="@color/colorFB"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="100dp"
+            android:paddingBottom="11dp"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:paddingTop="11dp"
+            android:scaleX="0.98"
+            android:scaleY="0.98"
+            android:scrollHorizontally="false"
+            android:text="Facebook"
+            android:textAlignment="center"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:typeface="normal"
+            android:alpha="0"/>
+
+
+        <Button
+            android:id="@+id/googleSignin"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="@android:dimen/notification_large_icon_height"
+            android:layout_marginRight="@android:dimen/notification_large_icon_width"
+            android:layout_row="2"
+            android:background="@drawable/common_google_signin_btn_text_light_normal"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+
+            android:shadowColor="@android:color/darker_gray"
+            android:text="Continue with Google"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:typeface="normal"
+            android:alpha="0"/>
+    </GridLayout>
+
+</RelativeLayout>

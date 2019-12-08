@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "413398182899",
+    "firebase_url": "https://transfly-a50e3.firebaseio.com",
+    "project_id": "transfly-a50e3",
+    "storage_bucket": "transfly-a50e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413398182899:android:7695d467dc0e68d9560086",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413398182899-paal9rpt1br23tp34171d46u1rqaqvuq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "77ae8ba3c928b0b7801310609648c9209e94f211"
+          }
+        },
+        {
+          "client_id": "413398182899-d0jgsjfm94sh3s2fmilk4vc2ajeeo6as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkB6rFC4q0xsBap29PtMtCV_jfvg_hIg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413398182899-d0jgsjfm94sh3s2fmilk4vc2ajeeo6as.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

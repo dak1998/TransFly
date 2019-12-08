@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_book"
+        android:enabled="true"
+        android:icon="@drawable/book"
+        android:title="Book"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/action_transactions"
+        android:enabled="true"
+        android:icon="@drawable/transactions"
+        android:title="Transactions"
+        app:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/action_profile"
+        android:enabled="true"
+        android:icon="@drawable/profile"
+        android:checked="true"
+        android:title="Profile"
+        app:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/action_support"
+        android:enabled="true"
+        android:icon="@drawable/support"
+        android:title="Support"
+        app:showAsAction="always|withText"/>
+
+</menu>
